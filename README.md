@@ -16,5 +16,7 @@ cd Crypto-Peek
 ## How To Use
 ![howtouse](https://github.com/aFunnyBit/Crypto-Peek/raw/master/img/cpeeker.gif)
 
+```bash
 ./cpeeker [symbol name or crypto name]
+```
 
