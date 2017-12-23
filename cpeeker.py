@@ -10,7 +10,7 @@ results = 0
 
 for x in coin_dict:
     if (x["id"] == coin_id or x['symbol'] == coin_id.upper()):
-        results = json.dumps(x,indent=4)
+        results = json.dumps(x, indent = 4, sort_keys=True)
         break
 
 print(results)
