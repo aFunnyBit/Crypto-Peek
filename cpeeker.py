@@ -3,7 +3,7 @@ import sys
 import requests
 import json
 
-request = requests.get('https://api.coinmarketcap.com/v1/ticker/')
+request = requests.get('https://api.coinmarketcap.com/v1/ticker/?limit=0')
 coin_dict = request.json()
 coin_id = str(sys.argv[1])
 results = 0
